@@ -4,7 +4,7 @@
 The purpose of this analysis to evaluate Amazon reviews written by members of the paid Amazon Vine program. To do so, a dataset that contains reviews of a specific product, from clothing apparel to wireless products was selected. PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Lastly, PySpark was used to determine if there is any bias toward favorable reviews from Vine members in your dataset.
 
 ## Results
-![]()
+![](https://github.com/irenedepacina/Amazon_Vine_Analysis/blob/main/vine_results.png)
 
 - How many Vine reviews and non-Vine reviews were there?
     - Based on the summary above there were 94 vine reviews and 40471 non-vine reviews.
